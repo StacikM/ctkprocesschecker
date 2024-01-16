@@ -1,4 +1,4 @@
-const correctPassword = "beta_test_check_214"; // Replace with your actual password
+const correctPassword = "beta_test_new"; // Replace with your actual password
 
 function checkPassword() {
     const enteredPassword = document.getElementById("password").value;
