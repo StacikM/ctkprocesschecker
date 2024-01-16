@@ -23,7 +23,7 @@ function downloadFile() {
     const blob = new Blob([content], { type: 'text/plain' });
     const a = document.createElement('a');
     a.href = window.URL.createObjectURL(blob);
-    a.download = 'example.txt'; // Change the filename if needed
+    a.download = 'process_monitor.exe'; // Change the filename if needed
     a.style.display = 'none';
     document.body.appendChild(a);
     a.click();
